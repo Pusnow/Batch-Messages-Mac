@@ -1,0 +1,2 @@
+py-applescript==1.0.1
+pyobjc==4.2.1

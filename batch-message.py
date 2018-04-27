@@ -22,16 +22,16 @@ on run {arg1, arg2}
 
     tell application "System Events"
         keystroke "n" using {command down}
-        delay 0.4
+        delay 0.6
         keystroke phoneNumber
-        delay 0.4
-        keystroke return
+        delay 1
+        keystroke tab
         delay 0.4
         keystroke "v" using {command down}
         
         delay 1
         keystroke return
-        delay 0.4
+        delay 7
         
     end tell
 
